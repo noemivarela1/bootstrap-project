@@ -1,0 +1,38 @@
+$primary: #291200;
+
+$headings-font-family: Ewert;
+$font-family-base: Ultra;
+$font-size-base:1rem;
+$h1-font-size:$font-size-base *3.5;
+
+$box-shadow:0 0.2rem 0.5rem 0.5rem rgba(black, .75);
+
+body{
+    background-image:url("../images/wood.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+.poster{
+    background-image:url('../images/parchment.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    width:490px;
+    height:640px;
+}
+.poster img{
+    width:75%;
+    filter:sepia(100%);
+}
+
+#price{
+    text-decoration:underline;
+    text-decoration-style:double;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
